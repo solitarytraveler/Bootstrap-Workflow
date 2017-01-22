@@ -1,0 +1,48 @@
+server :
+  path : 'dist/'
+  port : 8000
+support :
+  - "Android 2.3"
+  - "Android >= 4"
+  - "Chrome >= 20"
+  - "Firefox >= 24"
+  - "Explorer >= 8"
+  - "iOS >= 6"
+  - "Opera >= 12"
+  - "Safari >= 6"
+dist : 'dist/'
+copy :
+  - 'src/assets/**/*'
+  - '!src/assets/{js,sass,img}/**/*'
+images :
+  - 'src/assets/img/**/*'
+fonts :
+  bootstrap: 'bower_components/bootstrap-sass/assets/fonts/bootstrap/*'
+  font-awesome : 'bower_components/font-awesome/fonts/*'
+sass :
+  - 'bower_components/bootstrap-sass/assets/stylesheets/bootstrap'
+  - 'bower_components/font-awesome/'
+templates :
+  - 'src/layouts'
+  - 'src/partials'
+  - 'src/pages'
+javascript :
+  components :
+  # Bower Components
+    - 'bower_components/jquery/dist/jquery.js'
+  # Bootstrap Javascript
+  bootstrap :
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js'
+    - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js'
+    # Site Javascript
+    - 'src/assets/js/script.js'

@@ -1,0 +1,23 @@
+$fa-font-path:        "../fonts/font-awesome/";
+$fa-font-size-base:   14px;
+$fa-line-height-base: 1;
+//$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !default; // for referencing Bootstrap CDN font files directly
+$fa-css-prefix:       fa;
+$fa-version:          "4.7.0";
+$fa-border-color:     #eee;
+$fa-inverse:          #fff;
+$fa-li-width:         (30em / 14);
+
+@import "scss/variables";
+@import "scss/mixins";
+@import "scss/path";
+@import "scss/core";
+@import "scss/larger";
+@import "scss/fixed-width";
+@import "scss/list";
+@import "scss/bordered-pulled";
+@import "scss/animated";
+@import "scss/rotated-flipped";
+@import "scss/stacked";
+@import "scss/icons";
+@import "scss/screen-reader";
