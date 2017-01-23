@@ -23,7 +23,6 @@ Project source files are located in the folder ```src```
 * ```gulp build --production``` : Build and prepare the project for production by apply additional plugins like: image optimization, css minification etc...
 
 ## Configuration
-
 Configuration option are located in the file config.yml
 
 * **Server** : [BrowserSync](https://browsersync.io/) Params
