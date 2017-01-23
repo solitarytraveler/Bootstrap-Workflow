@@ -6,6 +6,11 @@ To install Bootstrap Build System please see the following steps:
 * Run ```bower install```
 * Run ```npm install```
 
+## How to use
+* ```gulp watch``` : Start the server, and watch for files updates
+* ```gulp build```: Build the project
+* ```gulp build --production``` : Build and prepare the project for production by apply additional plugins like: image optimization, css minification etc...
+
 ## Configuration
 
 Configuration option are located in the file config.yml
