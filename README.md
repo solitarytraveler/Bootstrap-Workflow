@@ -30,7 +30,7 @@ Configuration option are located in the file config.yml
 * **Support**: browser support option for autoprefixer plugin, See (Bootstrap browser support)[http://getbootstrap.com/getting-started/#support]
 * **Dist**: Build destination folder
 * **Images**: Image source folder (default to: src/img/)
-* **Fonts** : fonts files to copy, This is a [key:value] format, the key will be used as the folder name for the font files and the value is the path to font source files, see the example below :
+* **Fonts** : fonts files to copy, This is a [key:value] format, the key will be used as the folder name for the font files and the value is the path to font source files, see the ex :
   ```bootstrap: 'bower_components/bootstrap-sass/assets/fonts/bootstrap/*'```
 * **Sass** : Sass files to include when compiler resolving SASS @import
 * **Templates** : Template files to lookup by the template engine (Nunjucks)[http://mozilla.github.io/nunjucks/]
