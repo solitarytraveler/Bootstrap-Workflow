@@ -6,6 +6,17 @@ To install Bootstrap Build System please see the following steps:
 * Run ```bower install```
 * Run ```npm install```
 
+## Directory Structure
+Project source files are located in the folder ```src```
+* assets
+  * sass
+  * js
+  * img 
+  * fonts
+* layouts
+* pages
+* partials
+  
 ## How to use
 * ```gulp watch``` : Start the server, and watch for files updates
 * ```gulp build```: Build the project
