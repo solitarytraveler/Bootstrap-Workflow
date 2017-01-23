@@ -1,7 +1,6 @@
-# Bootstrap Build System
-Bootstrap Build System is gulp based build system, ready for [Bootstrap 3](http://getbootstrap.com/)
+# Bootstrap Workflow
+Bootstrap Workflow is gulp based build system, ready for [Bootstrap 3](http://getbootstrap.com/)
 ## Installation
-To install Bootstrap Build System please see the following steps:
 * Download and extract Zip File
 * Run ```bower install```
 * Run ```npm install```
@@ -23,7 +22,7 @@ Project source files are located in the folder ```src```
 * ```gulp build --production``` : Build and prepare the project for production by apply additional plugins like: image optimization, css minification etc...
 
 ## Configuration
-Configuration option are located in the file config.yml
+Configuration option are located in the file ```config.yml```
 
 * **Server** : [BrowserSync](https://browsersync.io/) Params
  * **Path** : App base directory 
