@@ -1,7 +1,6 @@
 # Bootstrap Build System
 Bootstrap Build System is gulp based build system, ready for [Bootstrap 3](http://getbootstrap.com/)
 ## Installation
-To install Bootstrap Build System please see the following steps:
 * Download and extract Zip File
 * Run ```bower install```
 * Run ```npm install```
