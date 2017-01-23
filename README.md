@@ -1,4 +1,4 @@
-# Bootstrap Build System
+# Bootstrap Workflow
 Bootstrap Build System is gulp based build system, ready for [Bootstrap 3](http://getbootstrap.com/)
 ## Installation
 * Download and extract Zip File
