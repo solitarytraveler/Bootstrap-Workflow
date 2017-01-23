@@ -15,7 +15,7 @@ const production = yargs.argv.production
 const config     = yaml.load(fs.readFileSync('config.yml', 'utf8'))
 
 gulp.task('build', gulp.series(clean, gulp.parallel(sass, javascript, images, fonts, html, copy)))
-gulp.task('default', gulp.series('build', server, watch))
+gulp.task('watch', gulp.series('build', server, watch))
 
 /* Remove old distribution folder */
 function clean(callback) {
