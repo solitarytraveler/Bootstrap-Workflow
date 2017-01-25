@@ -19,7 +19,7 @@ Project source files are located in the folder ```src```
 ## How to use
 * ```gulp watch``` : Start the server, and watch for files updates
 * ```gulp build```: Build the project
-* ```gulp build --production``` : Build and prepare the project for production by apply additional plugins like: image optimization, css minification etc...
+* ```gulp build --production``` : Build the project for production
 
 ## Configuration
 Configuration option are located in the file ```config.yml```
