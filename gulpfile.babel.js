@@ -73,7 +73,7 @@ function sass() {
 
 /* Javascript Task */
 function javascript() {
-	let components = gulp.src(config.javascript.components)
+	let components = gulp.src(config.javascript.vendor)
 	.pipe($.sourcemaps.init())
 	.pipe($.if(production, $.uglify().on('error', e => console.log(e))))
 	.pipe($.if(!production, $.sourcemaps.write()))
