@@ -24,8 +24,8 @@ Project source files are located in the folder ```src```
 ## Configuration
 Configuration option are located in the file ```config.yml```
 
-* **Server** : [BrowserSync](https://browsersync.io/) Params
- * **Path** : App base directory 
+* **Server** : [BrowserSync](https://browsersync.io/)
+ * **Path** : base directory 
  * **Port** : Port number
 * **Support**: browser support option for autoprefixer plugin, See (Bootstrap browser support)[http://getbootstrap.com/getting-started/#support]
 * **Dist**: Build destination folder
