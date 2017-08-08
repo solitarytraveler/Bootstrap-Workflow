@@ -21,6 +21,8 @@ Project source files are located in the folder ```src```
 * ```gulp build```: Build the project.
 * ```gulp build --production``` : Build the project for ditsribution.
 
+## Bootstrap Settings
+Bootstrap settings file, is located in 'src/assets/components/bootstrap/settings.scss'
 ## Configuration
 Configuration option are located in the file ```config.yml```
 
