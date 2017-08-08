@@ -22,7 +22,7 @@ Project source files ```src``` :
 * ```gulp build --production``` : Build the project for ditsribution (minify, uglyfy etc...).
 
 ## Bootstrap Settings
-All bootstrap SASS configuration variable are located in 'src/assets/settings.scss'
+All bootstrap SASS configuration variable are located in 'src/assets/sass/_settings.scss'
 
 ## Configuration
 Configuration option ```config.yml``` :
