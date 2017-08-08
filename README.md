@@ -6,7 +6,7 @@ Bootstrap Workflow is gulp based build system, ready for [Bootstrap 3](http://ge
 * Run ```npm install```
 
 ## Directory Structure
-Project source files are located in the folder ```src```
+Project source files ```src``` :
 * assets
   * sass
   * js
@@ -19,12 +19,13 @@ Project source files are located in the folder ```src```
 ## How to use
 * ```gulp watch``` : Start the server, and watch for files updates.
 * ```gulp build```: Build the project.
-* ```gulp build --production``` : Build the project for ditsribution.
+* ```gulp build --production``` : Build the project for ditsribution (minify, uglyfy etc...).
 
 ## Bootstrap Settings
-Bootstrap settings file, is located in 'src/assets/components/bootstrap/settings.scss'
+All bootstrap SASS configuration variable are located in 'src/assets/settings.scss'
+
 ## Configuration
-Configuration option are located in the file ```config.yml```
+Configuration option ```config.yml``` :
 
 * **Server** : [BrowserSync](https://browsersync.io/)
  * **Path** : base directory 
