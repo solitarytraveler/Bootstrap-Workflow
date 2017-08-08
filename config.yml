@@ -27,10 +27,8 @@ templates :
   - 'src/partials'
   - 'src/pages'
 javascript :
-  components :
-  # Bower Components
+  vendor :
     - 'bower_components/jquery/dist/jquery.js'
-  # Bootstrap Javascript
   bootstrap :
     - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js'
     - 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js'

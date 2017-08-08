@@ -1,9 +1,9 @@
-/bower_components/
-/node_modules/
-/dist/
-.idea/Bootstrap-Workflow.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
+.DS_Store
+node_modules
+npm-debug.log
+bower_components
+dist
+*.swp
+.idea
+/package-lock.json
 package-lock.json
