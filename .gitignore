@@ -5,3 +5,5 @@ bower_components
 dist
 *.swp
 .idea
+/package-lock.json
+package-lock.json
