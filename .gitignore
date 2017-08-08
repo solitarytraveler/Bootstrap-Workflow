@@ -1,3 +1,9 @@
 /bower_components/
 /node_modules/
 /dist/
+.idea/Bootstrap-Workflow.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+package-lock.json
